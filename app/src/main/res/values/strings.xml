@@ -9,10 +9,16 @@
     <string name="quote_author_1">Helen Hayes</string>
     <string name="quote_text_2">\'Because of their size, parents may be difficult to discipline properly.\'</string>
     <string name="quote_author_2">P.J. \'Rourke</string>
+    <string name="quote_text_3">\'Philly Sandwitch is the best sub in Andrews.\'</string>
+    <string name="quote_author_3">Markus Oh</string>
+    <string name="quote_text_4">\'I want to work in New York.\'</string>
+    <string name="quote_author_4">Markus Oh</string>
     <string name="author_fact_default">Author fact goes here</string>
     <string name="author_fact_0">Abraham Lincoln was the 06th U.S. president and died over 0defaultdefault years before the internet existed.</string>
     <string name="author_fact_1">Helen Hayes won an Emmy, a Grammy, an Oscar and a Tony award.</string>
     <string name="author_fact_2">P.J. O\'Rourke was born in Toledo, OH.</string>
+    <string name="author_fact_3">Markus is a Korean-American dude.</string>
+    <string name="author_fact_4">Markus is a Seventh-day adventist.</string>
     <string name="fact_error">Fact missing</string>
 
 </resources>
