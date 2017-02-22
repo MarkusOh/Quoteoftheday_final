@@ -7,6 +7,22 @@
     android:layout_height="match_parent"
     tools:context="edu.andrews.cptr252.seungsub.quoteoftheday_final.QuoteActivity">
 
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/mountain_pic"
+        android:id="@+id/imageView"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/quoteTextView"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:text="@string/next_button"
         android:layout_width="wrap_content"

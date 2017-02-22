@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.content.Intent;
 
@@ -19,6 +20,7 @@ public class QuoteActivity extends AppCompatActivity {
     private TextView mQuoteTextView;
     private TextView mAuthorTextView;
     private Button mNextButton;
+    private ImageView mImageView;
 
     /** Quotes used in app */
     private Quote[] mQuoteList = new Quote[]{
@@ -76,6 +78,10 @@ public class QuoteActivity extends AppCompatActivity {
         if(savedInstanceState != null){
             mCurrentIndex = savedInstanceState.getInt(KEY_QUOTE_INDEX);
         }
+
+        //Display image
+        mImageView = (ImageView) findViewById(R.id.imageView);
+        mImageView.setImageResource(R.drawable.mountain_pic);
 
         //Display the text for the quote
         mQuoteTextView = (TextView) findViewById(R.id.quoteTextView);
