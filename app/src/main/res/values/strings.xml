@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quote of the day</string>
+    <string name="next_button">Next</string>
+    <string name="quote_text_default">\'A pithy quote will go here.\'</string>
+    <string name="quote_author_default">J.Caesar</string>
+    <string name="quote_text_0">\'Problem with internet quotes is that you can\'t always depend on their accuracy\'</string>
+    <string name="quote_author_0">Abraham Lincoln</string>
+    <string name="quote_text_1">\'Age is not important unless you\'re a cheese.\'</string>
+    <string name="quote_author_1">Helen Hayes</string>
+    <string name="quote_text_2">\'Because of their size, parents may be difficult to discipline properly.\'</string>
+    <string name="quote_author_2">P.J. \'Rourke</string>
+    <string name="author_fact_default">Gaius Julius Caesar, known as Julius Caesar, was a Roman politician, general, and notable author of Latin prose.</string>
+    <string name="author_fact_0">Abraham Lincoln was the 06th U.S. president and died over 0defaultdefault years before the internet existed.</string>
+    <string name="author_fact_1">Helen Hayes won an Emmy, a Grammy, an Oscar and a Tony award.</string>
+    <string name="author_fact_2">P.J. O\'Rourke was born in Toledo, OH.</string>
+    <string name="fact_error">Fact missing</string>
+
+</resources>
+
+
+
+
+
+
+
+
