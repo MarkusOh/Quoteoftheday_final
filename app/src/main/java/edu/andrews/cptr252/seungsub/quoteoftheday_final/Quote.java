@@ -11,14 +11,18 @@ public class Quote {
     /** Reference to quote's author */
     private int mAuthor;
 
+    /** Reference to author's fact */
+    private int mAuthorFact;
+
     /**
      * Create a new quote
      * @param quote     Resource id for quote text
      * @param author    Resource id for quote author
      */
-    public Quote(int quote, int author) {
+    public Quote(int quote, int author, int authorFact) {
         mQuote = quote;
         mAuthor = author;
+        mAuthorFact = authorFact;
     }
 
     //  getters and setters
@@ -33,5 +37,11 @@ public class Quote {
     }
     public void setAuthor(int author) {
         mAuthor = author;
+    }
+    public int getAuthorFact() {
+        return mAuthorFact;
+    }
+    public void setAuthorFact(int authorFact) {
+        mAuthorFact = authorFact;
     }
 }
